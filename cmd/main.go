@@ -13,15 +13,15 @@ func printHelp() {
 GTD - simple CLI todo manager
 
 Usage:
-.\gtd add    --title "task title"
-.\gtd list
-.\gtd done   --id <task_id>
-.\gtd delete --id <task_id>
-.\gtd help
+	gtd add    --title "task title"
+	gtd list
+	gtd done   --id <task_id>
+	gtd delete --id <task_id>
+	gtd help
 
 Examples:
-.\gtd add --title "learn golang"
-.\gtd done --id 1
+	gtd add --title "learn golang"
+	gtd done --id 1
 `)
 }
 
